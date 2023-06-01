@@ -1,0 +1,241 @@
+
+
+body, html {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: quasimoda, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+}
+
+#landingDiv {
+    background-image: url("img/mobile-bg-black.png");
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#logoimg {
+    width: 150px;
+    height: 150px;
+    margin-top: 40px;
+}
+
+#header {
+    padding: 40px 20px 0px 20px;
+    color: #E6DDC5;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+}
+
+#subText {
+    font-size: 15px;
+    padding: 0px 60px 0px 60px;
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+}
+
+.waitlist-button {
+    border: 3px solid #E6DDC5;
+    border-radius: 80px;
+    font-size: 18px;
+    padding: 20px 30px;
+    text-decoration: none;
+    color: #E6DDC5;
+    margin: 30px;
+}
+
+.waitlist-button-black {
+    border: 3px solid black;
+    border-radius: 80px;
+    font-size: 18px;
+    padding: 20px 30px;
+    text-decoration: none;
+    color: black;
+    margin-top: 30px;
+}
+
+.scroll-button {
+    border: 3px solid #E6DDC5;
+    border-radius: 80px;
+    font-size: 12px;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: #E6DDC5;
+    
+}
+
+#socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+#socials a img {
+    width: 35px;
+    height: 35px;
+}
+
+#bg2 {
+    background-image: linear-gradient(#E6DDC5, #968f7b);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 1200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#text-bg2 {
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    font-size: 15px;
+    line-height: 2;
+}
+
+#text-bg2 h1{
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
+    padding: 0px;
+}
+
+#text-bg2 h1 img{
+    height: 25px;
+}
+
+#img-bg2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    gap: 30px;
+    overflow: hidden;
+}
+
+.image-wrapper1 {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    margin-right: 80px;
+    overflow: visible;
+}
+
+.image-wrapper1::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #E6DDC5;
+    transform: rotate(-7deg);
+    z-index: 2;
+}
+
+.image-wrapper1 img {
+    display: block;
+    object-fit: cover;
+    width: 400px;
+    height: 270px;
+    transform: rotate(5deg);
+}
+
+.image-wrapper2 {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    margin-left: 80px;
+    overflow: visible;
+}
+
+.image-wrapper2::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #E6DDC5;
+    transform: rotate(1deg);
+    z-index: 2;
+}
+
+.image-wrapper2 img {
+    display: block;
+    max-width: 400px;
+    height: auto;
+    transform: rotate(-3deg);
+}
+
+
+#bg3 {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 120px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#bg4 {
+    background-image: url("img/blond-girl-stock.jpg");
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.filter {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: #E6DDC5;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    padding: 40px;
+}
+

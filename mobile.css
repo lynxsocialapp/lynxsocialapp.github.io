@@ -53,6 +53,16 @@ body, html {
     margin: 30px;
 }
 
+.partner-button {
+    border: 3px solid #E6DDC5;
+    border-radius: 80px;
+    font-size: 18px;
+    padding: 20px 30px;
+    text-decoration: none;
+    color: #E6DDC5;
+    margin: 30px;
+}
+
 .waitlist-button-black {
     border: 3px solid black;
     border-radius: 80px;
